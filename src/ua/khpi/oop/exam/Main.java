@@ -47,5 +47,16 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        Customer[] newCustomers;
+        try {
+            newCustomers = processor.upload();
+            System.out.println("------newHumans------");
+            for (Customer c : newCustomers) {
+                System.out.println(c);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76beddbf-d181-41ee-9f8c-42507c55bebf" name="Default Changelist" comment="" />
+    <list default="true" id="76beddbf-d181-41ee-9f8c-42507c55bebf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/khpi/oop/exam/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/exam/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/khpi/oop/exam/CustomerProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/exam/CustomerProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/khpi/oop/exam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/khpi/oop/exam/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d4XzYDa3Tc95F0PgZzRpk4uyWH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -60,5 +71,27 @@
       <updated>1591685601334</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/khpi/oop/exam/Main.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,9 +1,6 @@
 package ua.khpi.oop.exam;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.*;
 
 public class CustomerProcessor {
@@ -75,6 +72,7 @@ public class CustomerProcessor {
         }
         return result;
     }
+
     public Customer searchBySurname(String surname) {
         Customer result = null;
         if (customers != null) {
@@ -87,6 +85,7 @@ public class CustomerProcessor {
         }
         return result;
     }
+
     public Customer searchByPhone(String phone) {
         Customer result = null;
         if (customers != null) {
@@ -99,6 +98,7 @@ public class CustomerProcessor {
         }
         return result;
     }
+
     public Customer searchByRegistration(Date registration) {
         Customer result = null;
         if (customers != null) {
@@ -111,10 +111,19 @@ public class CustomerProcessor {
         }
         return result;
     }
+
     public void save() throws Exception {
         FileOutputStream fOut = new FileOutputStream("serialization");
         ObjectOutputStream oOut = new ObjectOutputStream(fOut);
         oOut.writeObject(customers);
         oOut.close();
+    }
+
+    public Customer[] upload() throws Exception {
+        FileInputStream fIn = new FileInputStream("serialization");
+        ObjectInputStream oIn = new ObjectInputStream(fIn);
+        Customer[] result = (Customer[]) oIn.readObject();
+        oIn.close();
+        return result;
     }
 }
